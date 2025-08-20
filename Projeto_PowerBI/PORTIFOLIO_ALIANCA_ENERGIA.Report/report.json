@@ -1,0 +1,235 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "e204b807db670cc6091a",
+      "config": "{}",
+      "name": "07bd57f0342d60423ec5"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Resumo Executivo",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "6203ad61da0d688022a2",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"065ac78cc6caae3079b3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":859.651301647958,\"y\":0,\"z\":1000,\"width\":383.9694291855744,\"height\":146.73990924289467,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Medidas.Total Custo Manutenção\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"},\"Name\":\"_Medidas.Total Custo Manutenção\",\"NativeReferenceName\":\"Total Custo Manutenção1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"}}}]},\"autoSelectVisualType\":false,\"columnProperties\":{\"_Medidas.Total Custo Manutenção\":{\"formatString\":\"\\\"R$\\\" #,0.###############;-\\\"R$\\\" #,0.###############;\\\"R$\\\" #,0.###############\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 146.74,
+          "width": 383.97,
+          "x": 859.65,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2b8cc8e0300d7a7608b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":295.9254836398376,\"y\":0,\"z\":2000,\"width\":251.90351086696919,\"height\":146.73990924289467,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Medidas.Atingimento da Meta (%)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Atingimento da Meta (%)\"},\"Name\":\"_Medidas.Atingimento da Meta (%)\",\"NativeReferenceName\":\"Atingimento da Meta (%)1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Atingimento da Meta (%)\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFA200'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 146.74,
+          "width": 251.90,
+          "x": 295.93,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"7bad7af0e9892b07009b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":567.3943157391927,\"y\":0,\"z\":3000,\"width\":267.8003343682828,\"height\":146.73990924289467,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Medidas.Fator de Capacidade (%)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Fator de Capacidade (%)\"},\"Name\":\"_Medidas.Fator de Capacidade (%)\",\"NativeReferenceName\":\"Fator de Capacidade (%)1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Fator de Capacidade (%)\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFA200'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 146.74,
+          "width": 267.80,
+          "x": 567.39,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"821cf56858a16d519154\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.78266061619298,\"y\":194.43037974683546,\"z\":4000,\"width\":464.6763792691665,\"height\":299.59398137090994,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Medidas.Total Geração (MWh)\"}],\"Category\":[{\"queryRef\":\"public producao_horaria.data_hora_leitura\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"public producao_horaria\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"},\"Name\":\"_Medidas.Total Geração (MWh)\",\"NativeReferenceName\":\"Total Geração (MWh)1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"data_hora_leitura\"},\"Name\":\"public producao_horaria.data_hora_leitura\",\"NativeReferenceName\":\"data_hora_leitura\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"data_hora_leitura\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"lineStyles\":[{\"properties\":{\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"responsive\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}},\"selector\":{\"metadata\":\"_Medidas.Total Geração (MWh)\"}}]},\"vcObjects\":{\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Geração de Energia (MWh)'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 299.59,
+          "width": 464.68,
+          "x": 9.78,
+          "y": 194.43,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"97b08500500d1adc5380\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.78266061619298,\"y\":0,\"z\":0,\"width\":269.0231669453069,\"height\":146.73990924289467,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Medidas.Total Geração (MWh)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"},\"Name\":\"_Medidas.Total Geração (MWh)\",\"NativeReferenceName\":\"Total Geração (MWh)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 146.74,
+          "width": 269.02,
+          "x": 9.78,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"cfddffce0c7a7e5d8bac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":926.9070933842847,\"y\":194.43037974683546,\"z\":6000,\"width\":287.36565560066873,\"height\":102.71793647002627,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"public parques_energeticos.tipo_energia\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Tipo de Energia Gerada\"},\"Name\":\"public parques_energeticos.tipo_energia\",\"NativeReferenceName\":\"Tipo de Energia Gerada\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 102.72,
+          "width": 287.37,
+          "x": 926.91,
+          "y": 194.43,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"d2d834d76596eb7653b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":35.462144733699546,\"y\":531.9321710054932,\"z\":8000,\"width\":1178.8106042512538,\"height\":173.64222593742537,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise do Período\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Encerramos o trimestre com uma geração de \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"840,76 mil MWh\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\", atingindo \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"34,83% \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\"da meta estabelecida para o período. Embora pareça uma nível baixo de meta, ela reflete a performance de um único trimestre (jan a mar);\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"O Fator de Capacidade foi de \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"10,38%\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\", onde este indicador é influenciado pela performance dos ativos. A análise detalhada por parque, revela uma alta eficiência nos ativos eólicos. \",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Os custos de manutenção de \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"R$ 780 Mil\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" representam um ponto de controle importante. A tendência de geração ao longo do trimestre foi positiva, com picos de produção consistentes indicando a boa saúde operacional dos ativos.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 173.64,
+          "width": 1178.81,
+          "x": 35.46,
+          "y": 531.93,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"ecc76f258cdec920b4b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":484.24170050155243,\"y\":194.43037974683546,\"z\":5000,\"width\":435.3283974205875,\"height\":195.65321232385958,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"public parques_energeticos.cidade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Cidade Parque\"},\"Name\":\"public parques_energeticos.cidade\",\"NativeReferenceName\":\"Cidade Parque\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}}}],\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"30L\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 195.65,
+          "width": 435.33,
+          "x": 484.24,
+          "y": 194.43,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"f101cf80e2e9b951e1a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":926.9070933842847,\"y\":306.93097683305473,\"z\":7000,\"width\":287.36565560066873,\"height\":210.32720324814903,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"public parques_energeticos.nome_parque\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.nome_parque\",\"NativeReferenceName\":\"Nome do Parque\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 210.33,
+          "width": 287.37,
+          "x": 926.91,
+          "y": 306.93,
+          "z": 7000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Análise de eficiência",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "e204b807db670cc6091a",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"46a4cb47ce1cbe3302de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":306.93097683305473,\"y\":324.0506329113924,\"z\":2000,\"width\":645.6556006687366,\"height\":185.87055170766658,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"public parques_energeticos.Nome do Parque\"},{\"queryRef\":\"_Medidas.Total Geração (MWh)\"},{\"queryRef\":\"_Medidas.Atingimento da Meta (%)\"},{\"queryRef\":\"_Medidas.Fator de Capacidade (%)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.Nome do Parque\",\"NativeReferenceName\":\"Nome do Parque\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"},\"Name\":\"_Medidas.Total Geração (MWh)\",\"NativeReferenceName\":\"Total Geração (MWh)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Atingimento da Meta (%)\"},\"Name\":\"_Medidas.Atingimento da Meta (%)\",\"NativeReferenceName\":\"Atingimento da Meta (%)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Fator de Capacidade (%)\"},\"Name\":\"_Medidas.Fator de Capacidade (%)\",\"NativeReferenceName\":\"Fator de Capacidade (%)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Atingimento da Meta (%)\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"152.44566515404824D\"}}}},\"selector\":{\"metadata\":\"public parques_energeticos.Nome do Parque\"}}],\"columnHeaders\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"values\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"_Medidas\"}},\"Property\":\"Fator de Capacidade (%)\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#e6e6e6'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#0d6abf'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"_Medidas.Fator de Capacidade (%)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 185.87,
+          "width": 645.66,
+          "x": 306.93,
+          "y": 324.05,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"6a3748aa1ed03a6780ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.451158347265345,\"y\":28.125149271554815,\"z\":0,\"width\":604.0792930499164,\"height\":280.028660138524,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"public parques_energeticos.Nome do Parque\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Medidas.Fator de Capacidade (%)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.Nome do Parque\",\"NativeReferenceName\":\"Nome do Parque\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Fator de Capacidade (%)\"},\"Name\":\"_Medidas.Fator de Capacidade (%)\",\"NativeReferenceName\":\"Fator de Capacidade (%)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Fator de Capacidade (%)\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 604.08,
+          "x": 13.45,
+          "y": 28.13,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a08f4351a3007a094bb3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.5469309768331,\"y\":28.125149271554815,\"z\":1000,\"width\":604.0792930499164,\"height\":280.028660138524,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"public parques_energeticos.Nome do Parque\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Medidas.Total Geração (MWh)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.Nome do Parque\",\"NativeReferenceName\":\"Nome do Parque\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"},\"Name\":\"_Medidas.Total Geração (MWh)\",\"NativeReferenceName\":\"Total Geração (MWh)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Geração (MWh)\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#7A8BFA'\"}}}}}}}]},\"vcObjects\":{\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 280.03,
+          "width": 604.08,
+          "x": 650.55,
+          "y": 28.13,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f93ccb235103120c00ea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.451158347265345,\"y\":522.1495103893002,\"z\":3000,\"width\":1217.9412467160257,\"height\":184.64771913064246,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Diagnóstico dos Ativos\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"A análise de eficiência individual comprova a força do nosso portfólio eólico. Os parques \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Icaraí (67,80%)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\", \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Jeri (67,77%)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" e \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Delta (67,24%)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" operam com um Fator de Capacidade excepcional, muito acima da média do setor, confirmando a qualidade dos ativos e as condições de vento privilegiadas.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"As usinas solares de \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Mossoró (28,41%)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" e \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Tauá (28,46%)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" apresentam um Fator de Capacidade consistente e dentro do esperado para a tecnologia fotovoltaica na região.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"A alta performance dos ativos eólicos sugere que a estratégia de expansão deve continuar focada nesta tecnologia, que se prova ser o motor de eficiência e geração do nosso portfólio.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 184.65,
+          "width": 1217.94,
+          "x": 13.45,
+          "y": 522.15,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Análise Operacional",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "f4ded35f0a085094040a",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2d5b50ed8843eb5309d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":655.4382612849296,\"y\":403.53475041796037,\"z\":5000,\"width\":621.1989491282542,\"height\":284.9199904466205,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Diagnósticos de Riscos e Manutenção\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\" Os custos de manutenção preventiva (54,49%) e corretiva (45,51%) estão equilibrados. No entanto, o custo com manutenções \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"corretivas (R$ 355 Mil)\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" ainda é elevado e representa um risco financeiro e operacional significativo.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"A \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Usina Solar de Mossoró\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" e o \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"Parque Eólico Delta\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\" foram responsáveis pela grande maioria das horas de parada e pelos custos de manutenção corretiva. A falha que levou Mossoró a 81 horas de inatividade deve ser a principal prioridade para análise de causa.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"A estratégia de realizar manutenções preventivas em parques solares durante o \",\"textStyle\":{\"fontSize\":\"11pt\"}},{\"value\":\"período noturno\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}},{\"value\":\", como visto em Tauá, provou ser altamente eficaz, zerando as perdas de produção. Esta prática deve ser formalizada como procedimento operacional padrão para todos os ativos solares.\",\"textStyle\":{\"fontSize\":\"11pt\"}}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 284.92,
+          "width": 621.20,
+          "x": 655.44,
+          "y": 403.53,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"514630380e3e537772ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":3000,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a2d9e0805575b6b25618\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.451158347265345,\"y\":33.0164795796513,\"z\":0,\"width\":617.5304513971818,\"height\":270.24599952233103,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"public manutencoes.tipo_manutencao\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Medidas.Total Custo Manutenção\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public manutencoes\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Tipos de Manutenção\"},\"Name\":\"public manutencoes.tipo_manutencao\",\"NativeReferenceName\":\"Tipos de Manutenção\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"},\"Name\":\"_Medidas.Total Custo Manutenção\",\"NativeReferenceName\":\"Total Custo Manutenção\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fillTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FF8C00'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"public manutencoes\"}},\"Property\":\"Tipos de Manutenção\"}},\"Right\":{\"Literal\":{\"Value\":\"'Corretiva'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"public manutencoes\"}},\"Property\":\"Tipos de Manutenção\"}},\"Right\":{\"Literal\":{\"Value\":\"'Preventiva'\"}}}}}]}}]},\"vcObjects\":{\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 270.25,
+          "width": 617.53,
+          "x": 13.45,
+          "y": 33.02,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a91a7a601d47c79425b4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":820.5206591831861,\"y\":303.2624791019823,\"z\":2000,\"width\":291.0341533317411,\"height\":9.78266061619298,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 9.78,
+          "width": 291.03,
+          "x": 820.52,
+          "y": 303.26,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a96a9fc3930da73c242e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.5469309768331,\"y\":33.0164795796513,\"z\":1000,\"width\":621.1989491282542,\"height\":335.0561261046095,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"public parques_energeticos.Nome do Parque\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Medidas.Total Custo Manutenção\"}],\"Series\":[{\"queryRef\":\"public manutencoes.Tipos de Manutenção\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0},{\"Name\":\"p1\",\"Entity\":\"public manutencoes\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.Nome do Parque\",\"NativeReferenceName\":\"Nome do Parque\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"Tipos de Manutenção\"},\"Name\":\"public manutencoes.Tipos de Manutenção\",\"NativeReferenceName\":\"Tipos de Manutenção\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"},\"Name\":\"_Medidas.Total Custo Manutenção\",\"NativeReferenceName\":\"Total Custo Manutenção\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FF8C00'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"public manutencoes\"}},\"Property\":\"Tipos de Manutenção\"}},\"Right\":{\"Literal\":{\"Value\":\"'Corretiva'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#003F5C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"public manutencoes\"}},\"Property\":\"Tipos de Manutenção\"}},\"Right\":{\"Literal\":{\"Value\":\"'Preventiva'\"}}}}}]}}]},\"vcObjects\":{\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 335.06,
+          "width": 621.20,
+          "x": 650.55,
+          "y": 33.02,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f5d69fc417cee37a7300\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.451158347265345,\"y\":326.49629806544067,\"z\":4000,\"width\":608.9706233580129,\"height\":245.78934798184858,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"public parques_energeticos.Nome do Parque\"},{\"queryRef\":\"public manutencoes.data_inicio\"},{\"queryRef\":\"public manutencoes.Tipos de Manutenção\"},{\"queryRef\":\"_Medidas.Total Custo Manutenção\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"public parques_energeticos\",\"Type\":0},{\"Name\":\"p1\",\"Entity\":\"public manutencoes\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome do Parque\"},\"Name\":\"public parques_energeticos.Nome do Parque\",\"NativeReferenceName\":\"Nome do Parque\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"Tipos de Manutenção\"},\"Name\":\"public manutencoes.Tipos de Manutenção\",\"NativeReferenceName\":\"Tipos de Manutenção\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"},\"Name\":\"_Medidas.Total Custo Manutenção\",\"NativeReferenceName\":\"Total Custo Manutenção\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"data_inicio\"},\"Name\":\"public manutencoes.data_inicio\",\"NativeReferenceName\":\"data_inicio\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Total Custo Manutenção\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"119.74666956614132D\"}}}},\"selector\":{\"metadata\":\"public manutencoes.Tipos de Manutenção\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"112.4236928849266D\"}}}},\"selector\":{\"metadata\":\"_Medidas.Total Custo Manutenção\"}}],\"values\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"_Medidas\"}},\"Property\":\"Total Custo Manutenção\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'minColor'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'maxColor'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"_Medidas.Total Custo Manutenção\"}}],\"columnHeaders\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Default'\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 245.79,
+          "width": 608.97,
+          "x": 13.45,
+          "y": 326.50,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

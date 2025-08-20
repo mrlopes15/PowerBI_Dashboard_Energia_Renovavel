@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PORTIFOLIO_ALIANCA_ENERGIA"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d53c9096-563c-4c45-90db-e1b3b4e1f068"
+  }
+}

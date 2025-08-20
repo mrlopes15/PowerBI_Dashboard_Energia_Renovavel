@@ -1,0 +1,30 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.146.1026.0 (25.08)+fb98ab832373de81dccd5c01cd96306a48477556
+
+annotation PBI_QueryOrder = ["public manutencoes","public metas_producao","public parques_energeticos","public producao_horaria","_Medidas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'public manutencoes'
+ref table DateTableTemplate_348763f8-22a2-43b4-85fe-e4de551543c9
+ref table LocalDateTable_a05e8cfa-36d0-4a14-a85e-ed66e31e234d
+ref table LocalDateTable_5caddd9d-727b-4d3c-8f88-8b7e3ccb71c5
+ref table 'public metas_producao'
+ref table LocalDateTable_c0ac4671-a419-46d4-811b-4848a26c3f28
+ref table 'public parques_energeticos'
+ref table LocalDateTable_f67156de-3629-45f0-81a8-b09ca2389e7a
+ref table 'public producao_horaria'
+ref table LocalDateTable_7c450bc6-8bb8-44ba-b9ea-7c5e09b221f8
+ref table _Medidas
+
+ref cultureInfo pt-BR
+

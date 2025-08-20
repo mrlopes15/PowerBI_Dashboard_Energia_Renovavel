@@ -1,0 +1,79 @@
+table 'public parques_energeticos'
+	lineageTag: 2ceab974-7795-4f63-b63b-f86d618423fd
+
+	column id_parque
+		dataType: int64
+		formatString: 0
+		lineageTag: e0f71d9b-de4e-4f79-b868-36f89a9aa85d
+		summarizeBy: none
+		sourceColumn: id_parque
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Parque'
+		dataType: string
+		lineageTag: d26c1a79-6064-4011-93e8-06b1ee0906c0
+		summarizeBy: none
+		sourceColumn: Nome do Parque
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Energia Gerada'
+		dataType: string
+		lineageTag: eebeea81-74d7-47ff-8003-3dc5afd1fa15
+		summarizeBy: none
+		sourceColumn: Tipo de Energia Gerada
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cidade Parque'
+		dataType: string
+		lineageTag: e296f197-6189-4eb6-8fdb-45b2617425c3
+		summarizeBy: none
+		sourceColumn: Cidade Parque
+
+		annotation SummarizationSetBy = Automatic
+
+	column estado
+		dataType: string
+		lineageTag: 3b7bd519-38c3-4ffd-a7d8-80b3a12d8b52
+		summarizeBy: none
+		sourceColumn: estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column capacidade_instalada_mw
+		dataType: int64
+		formatString: 0
+		lineageTag: d9bc4790-34f6-4242-8c24-71b93ea442a5
+		summarizeBy: sum
+		sourceColumn: capacidade_instalada_mw
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_inicio_operacao
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 79fe08d7-980e-4923-83a5-62720ab65128
+		summarizeBy: none
+		sourceColumn: data_inicio_operacao
+
+		variation Variation
+			isDefault
+			relationship: 0fe0c40e-07ce-4b58-aa21-af141dd29c2e
+			defaultHierarchy: LocalDateTable_f67156de-3629-45f0-81a8-b09ca2389e7a.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition 'public parques_energeticos' = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("ep-frosty-heart-adk5skqh-pooler.c-2.us-east-1.aws.neon.tech", "alianca_energia_db"),
+				    public_parques_energeticos = Fonte{[Schema="public",Item="parques_energeticos"]}[Data],
+				    #"Colunas Renomeadas" = Table.RenameColumns(public_parques_energeticos,{{"cidade", "Cidade Parque"}, {"tipo_energia", "Tipo de Energia Gerada"}, {"nome_parque", "Nome do Parque"}})
+				in
+				    #"Colunas Renomeadas"
+

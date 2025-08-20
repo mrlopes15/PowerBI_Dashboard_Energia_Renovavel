@@ -1,0 +1,68 @@
+table _Medidas
+	lineageTag: b0b85568-29a5-4b94-9ad7-f53d47666e08
+
+	measure 'Total Geração (MWh)' = SUM('public producao_horaria'[geracao_mwh])
+		lineageTag: 5621303f-074f-464a-9deb-0f12e29fa766
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Custo Manutenção' = SUM('public manutencoes'[custo_manutencao])
+		lineageTag: aa1846d5-dbe1-4f80-a647-8513cd6db179
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Horas Parado' = SUM('public manutencoes'[horas_parado])
+		formatString: 0
+		lineageTag: fa62b460-4292-4d9d-8d97-a68dc36067d3
+
+	measure 'Total Meta (MWh)' = SUM('public metas_producao'[meta_mwh])
+		formatString: 0
+		lineageTag: a53c29b7-79d0-4b82-8098-6c34fbc5f385
+
+	measure 'Atingimento da Meta (%)' =
+			
+			DIVIDE(
+			    [Total Geração (MWh)],
+			    [Total Meta (MWh)],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8d49c1fa-0baa-4106-ab88-892421d6dd68
+
+	measure 'Fator de Capacidade (%)' =
+			
+			VAR TotalGerado = [Total Geração (MWh)]
+			VAR CapacidadeInstaladaTotal = SUM('public parques_energeticos'[capacidade_instalada_mw])
+			VAR HorasNoPeriodo = COUNTROWS('public producao_horaria')
+			VAR ProducaoMaximaPossivel = CapacidadeInstaladaTotal * HorasNoPeriodo
+			
+			RETURN
+			    DIVIDE(
+			        TotalGerado,
+			        ProducaoMaximaPossivel,
+			        0
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: c4e26ee8-2ec1-49f5-b56a-546033c1c3ae
+
+	column 'Coluna 1'
+		dataType: string
+		lineageTag: cd025df3-8b91-4353-978b-7e711b4e51be
+		summarizeBy: none
+		sourceColumn: Coluna 1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

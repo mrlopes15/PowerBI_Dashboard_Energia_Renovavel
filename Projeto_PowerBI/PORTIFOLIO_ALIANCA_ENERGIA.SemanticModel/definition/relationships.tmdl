@@ -1,0 +1,43 @@
+relationship edfcb65a-6c0c-4da7-96e7-733a531ea40d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public manutencoes'.data_inicio
+	toColumn: LocalDateTable_a05e8cfa-36d0-4a14-a85e-ed66e31e234d.Date
+
+relationship 888dc433-3e13-4bf9-9341-56d4ddc93098
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public manutencoes'.data_fim
+	toColumn: LocalDateTable_5caddd9d-727b-4d3c-8f88-8b7e3ccb71c5.Date
+
+relationship 899945a6-b075-4d5c-adf2-1a74ced1a91a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public metas_producao'.mes_ano
+	toColumn: LocalDateTable_c0ac4671-a419-46d4-811b-4848a26c3f28.Date
+
+relationship 0fe0c40e-07ce-4b58-aa21-af141dd29c2e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public parques_energeticos'.data_inicio_operacao
+	toColumn: LocalDateTable_f67156de-3629-45f0-81a8-b09ca2389e7a.Date
+
+relationship f1be1d2f-9e3a-46ca-81a0-4c42e6bd13f7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'public producao_horaria'.data_hora_leitura
+	toColumn: LocalDateTable_7c450bc6-8bb8-44ba-b9ea-7c5e09b221f8.Date
+
+relationship 3ea54a55-e71d-44cf-b77c-7998a46d81cc
+	fromColumn: 'public manutencoes'.id_parque
+	toColumn: 'public parques_energeticos'.id_parque
+
+	annotation PBI_IsFromSource = FS
+
+relationship 46466327-0aa7-4384-8858-e183c41ade05
+	fromColumn: 'public metas_producao'.id_parque
+	toColumn: 'public parques_energeticos'.id_parque
+
+	annotation PBI_IsFromSource = FS
+
+relationship ba91dff2-3842-47d2-b0dd-c9b8537c91a1
+	fromColumn: 'public producao_horaria'.id_parque
+	toColumn: 'public parques_energeticos'.id_parque
+
+	annotation PBI_IsFromSource = FS
+

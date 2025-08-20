@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 306.39999389648438,
+        "y": 176
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 379.56886764440355,
+            "y": 411.81682412267253
+          },
+          "nodeIndex": "public manutencoes",
+          "nodeLineageTag": "2ce25130-bba7-45ea-a5db-9c389522171d",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 224.95553817913469
+          },
+          "nodeIndex": "public metas_producao",
+          "nodeLineageTag": "f49b1742-d596-4aac-9e20-30aebcd3f239",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 383.47679668813146,
+            "y": 0
+          },
+          "nodeIndex": "public parques_energeticos",
+          "nodeLineageTag": "2ceab974-7795-4f63-b63b-f86d618423fd",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 841.464787020611,
+            "y": 177
+          },
+          "nodeIndex": "public producao_horaria",
+          "nodeLineageTag": "2af3148e-1246-426f-9a3c-221fe35ba68b",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 774.26477481357961,
+            "y": 454.90841206133626
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "9fefa0b7-f899-4055-8e8e-a31fdd19d469",
+          "size": {
+            "height": 228,
+            "width": 234
+          },
+          "zIndex": 5
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
